@@ -1,0 +1,161 @@
+body {
+  background: url("https://static.vecteezy.com/system/resources/previews/001/340/268/large_2x/abstract-floral-tiles-pattern-free-vector.png");
+  background-size: 300px;
+  background-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+#menu {
+  position: fixed;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+li a {
+  float: right;
+  display: block;
+  color: rgb(225, 171, 95);
+  font-weight: bolder;
+  font-size: large;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: Verdana, sans-serif;
+}
+
+li a:hover {
+  background-color: rgb(12, 74, 93);
+  color: #ffffff;
+}
+
+li b {
+  float: left;
+  display: block;
+  padding: 4px 4px;
+  background-color: rgb(225, 171, 95);
+}
+
+li b:hover {
+  background-color: rgb(12, 74, 93);
+  color: #ffffff;
+}
+
+.style3 {
+  margin: auto;
+  background-color: rgb(156, 178, 174);
+  border: none;
+  box-shadow: 1px 0px 9px 5px rgb(156, 178, 174);
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  width: 70%;
+}
+
+.sub-section {
+  margin: auto;
+  background-color: rgba(191, 160, 116, 0.92);
+  border: 2px solid rgb(100, 96, 86);
+  border-style: dotted;
+  border-radius: 5px;
+  width: 60%;
+}
+
+#con {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+textarea {
+  resize: none;
+  margin-top: 10px;
+  box-sizing: content-box;
+  width: calc(100% - 6px);
+  border: 1px solid black;
+}
+/* component */
+.emojiPicker {
+  /* 5 emojis in row */
+  /* width: 212px;  */
+
+  /* 6 emojis in row */
+  /* width: 254px; */
+
+  /* 7 emojis in row */
+  width: 720px;
+
+  border: 1px solid #0d8cfc;
+  background-color: aliceblue;
+
+  -webkit-box-shadow: 1px 1px 5px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 5px -1px rgba(0, 0, 0, 0.75);
+}
+.emojis {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.emojiFrame {
+  box-sizing: content-box;
+  user-select: none;
+  text-align: center;
+  cursor: pointer;
+  width: 30px;
+  font-size: 21px;
+  padding: 3px;
+  margin: 3px;
+  background-color: transparent;
+  transform: scale(0.9);
+
+  transition: background-color 0.2s, transform 0.1s;
+}
+.emojiFrame:hover {
+  background-color: #0d8cfc;
+}
+.emojiFrame:active {
+  background-color: #4babff;
+  transform: scale(0.95);
+}
+/* 
+<!-- HTML !-->
+<button class="button-33" role="button">Button 33</button> */
+
+/* CSS */
+.button-33 {
+  background-color: rgb(12, 74, 93);
+  border-radius: 100px;
+  box-shadow: rgba(12, 74, 93, 0.2) 0 -25px 18px -14px inset,rgba(12, 74, 93, .15) 0 1px 2px,rgba(12, 74, 93, .15) 0 2px 4px,rgba(12, 74, 93, .15) 0 4px 8px,rgba(12, 74, 93, .15) 0 8px 16px,rgba(12, 74, 93, .15) 0 16px 32px;
+  color: rgb(245, 253, 245);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: rgba(225, 171, 95,.35) 0 -25px 18px -14px inset,rgba(225, 171, 95,.25) 0 1px 2px,rgba(225, 171, 95, .25) 0 2px 4px,rgba(225, 171, 95, .25) 0 4px 8px,rgba(225, 171, 95,.25) 0 8px 16px,rgba(225, 171, 95,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
